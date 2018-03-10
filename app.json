@@ -1,7 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/feedback/feedback",
-    "pages/creat/creat"
+    "pages/create/create",
+    "pages/edit/edit"
+    
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff9b6e",
@@ -19,7 +22,7 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/creat/creat",
+        "pagePath": "pages/index/index",
         "text": "记事本",
         "iconPath": "images/icon1.png",
         "selectedIconPath": "images/sicon1.png"
