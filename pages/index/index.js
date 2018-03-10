@@ -1,11 +1,12 @@
 // pages/index/index.js
+var app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    items:[],
   },
 
   /**
@@ -26,7 +27,19 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+      this.setData({
+        items:[]
+      });
+      var that = this;
+      app.globalData.hotapp.wxlogin(function(res) {
+          that.onLoadData();
+      });
+  },
+
+  onNewItem:function(event) {
+      wx.navigateTo({
+        url: '../create/create',
+      })
   },
 
   /**
