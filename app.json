@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/feedback/feedback",
+    "pages/creat/creat"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff9b6e",
+    "navigationBarTitleText": "HotApp云笔记",
+    "navigationBarTextStyle": "#ffffff",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#efeff4",
+    "enablePullDownRefresh": true
+  },
+"tabBar": {
+  "color": "#b3b3b3",
+  "selectedColor": "#fc8e5d",
+  "backgroundColor": "#f5f5f7",
+  "borderStyle": "white",
+  "position": "bottom",
+  "list": [
+    {
+      "pagePath": "pages/creat/creat",
+      "text": "记事本",
+      "iconPath": "images/icon1.png",
+      "selectedIconPath": "images/sicon1.png"
+    },
+    {
+      "pagePath": "pages/feedback/feedback",
+      "text": "反馈",
+      "iconPath": "images/icon2.png",
+      "selectedIconPath": "images/sicon2.png"
+    }
+  ]
+}
+}
