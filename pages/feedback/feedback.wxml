@@ -1,2 +1,15 @@
 <!--pages/feedback/feedback.wxml-->
-<text>pages/feedback/feedback.wxml</text>
+<form bindsubmit = "onSubmit" bindreset="">
+<view class = "container">
+    <view class = 'row text_box'>
+        <textarea class='text' name='content' value = "{{content}}" placeholder="请输入您的反馈"></textarea>
+    </view>
+    <view class = 'row btn_box'>
+        <button form-type='submit' class = 'submit'>提交反馈</button>
+    </view>
+    <view class = 'row version'>
+        <view class = 'txt'> 版本1.0</view>
+        <view class = 'txt'>HotApp提供云后台服务</view>
+    </view>
+</view>
+</form>

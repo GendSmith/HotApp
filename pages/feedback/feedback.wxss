@@ -1,1 +1,52 @@
 /* pages/feedback/feedback.wxss */
+page{
+  width: 100%;
+  height: 100%
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.container .row{
+    width:100%;
+}
+
+.text {
+  width: 90%;
+  height: 400rpx;
+  flex-shrink: 1;
+  margin: 0 auto;
+  border-radius: 10rpx;/*框框的圆角*/
+  color: #999;
+  font-size: 14px;
+  padding: 10px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.btn_box {
+  margin-top: 100rpx;
+}
+
+.submit{
+  width: 180px;
+  background: #fc8e5d;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.version {
+  margin-top: 100rpx;
+}
+
+.version .txt {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
