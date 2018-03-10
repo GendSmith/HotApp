@@ -1,1 +1,100 @@
 /* pages/index/index.wxss */
+page {
+  background: #EFEFF4;
+}
+
+.container {
+  flex-wrap: wrap;
+  background: #EFEFF4;
+  font-family: '微软雅黑'；
+}
+.col{
+  width: 26%;
+  padding-top: 33%;
+  margin:25rpx 3.6666666%;
+  position: relative;
+}
+
+.item{
+  width:100%;
+  height: 100%;
+  border-radius: 20rpx;
+  overflow: hidden;
+  position:absolute;
+  box-sizing: border-box;
+  top:0;
+  display:flex;
+  flex-direction: column;
+}
+.item .content,
+.item .bottom
+{
+  display: flex;
+  flex-flow: row nowarp;
+  align-items: center;
+  justify-content: center;
+}
+.item .bottom {
+  height: 80rpx;
+  background: #9F7968;
+  font-size: 22rpx;
+}
+.item .content .txt {
+  padding:0 5%;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+  display: box; 
+}
+.item .bottom .txt {
+  color: #fff;
+}
+.item .notepad {
+  background: #fff;
+}
+.item .today{
+  background: #FDE3D5;
+}
+.item .yesterday {
+  background: #D5EFFD;
+}
+.add_box,
+.item .more {
+  border:6rpx dotted #d9d9d9;
+}
+.add_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tips_box{
+  position: absolute;
+  top:-60rpx;
+}
+.item .more {
+  background: url(../../images/more.png) no-repeat center center;
+  background-size: 60%;
+}
+.tips{
+  position: absolute;
+  z-index:9;
+  right: -300rpx;
+  bottom: -140rpx;
+}
+.tips_txt{
+  width: 360rpx;
+  font-size: 32rpx;
+  padding: 45rpx 0;
+  text-align: center;
+  background: #fff;
+  border-radius: 14rpx;
+}
+.tips_icon{
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 30rpx;
+  background-size: 100%;
+}
