@@ -1,10 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/feedback/feedback",
+    "pages/edit/edit",
     "pages/create/create",
-    "pages/edit/edit"
-    
+    "pages/feedback/feedback"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff9b6e",
